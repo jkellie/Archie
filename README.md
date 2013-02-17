@@ -1,0 +1,3 @@
+The ARCHIE Platform is an app designed to be used by Amway APs and their member IBOs for personal business information websites. The app functions as an intermediary source of additional information about an individual IBO, the leadership team they are associated with, and the Amway business opportunity as presented by the AP and the content they choose to provide to their users.
+
+*** MORE COMING SOON ***
