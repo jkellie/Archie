@@ -3,9 +3,6 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.12'
 
 gem 'sqlite3'
-gem 'jquery-rails'
-gem 'bcrypt-ruby'
-
 
 # Gems used only for assets and not required in production environments by default.
 group :assets do
@@ -18,7 +15,7 @@ end
 
 group :test, :development do
   gem 'sqlite3'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '~> 2.12.2'
   gem 'guard-rspec'
 end
 
@@ -28,6 +25,13 @@ group :test do
   gem 'rb-fsevent', '0.9.3', :require => false
   gem 'ruby_gntp'
 end
+
+gem 'jquery-rails'
+gem 'bcrypt-ruby'
+gem 'rolify'
+gem 'figaro'
+gem 'cancan'
+gem 'devise'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
