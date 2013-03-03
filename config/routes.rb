@@ -1,10 +1,7 @@
 Archie::Application.routes.draw do
   
-  devise_for :users, :path => 'admin'
-  
-  namespace :admin do
-    resources :users
-  end
+  devise_for :users, :path => 'admin', :controllers => { :registrations => "registrations"}
+
   
   
   # The priority is based upon order of creation:
