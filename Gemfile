@@ -40,5 +40,5 @@ gem 'bcrypt-ruby'
 gem 'rolify'
 gem 'figaro'
 gem 'cancan'
-gem 'devise'
+gem 'devise', '~> 2.2.3'
 
