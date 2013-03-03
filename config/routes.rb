@@ -1,8 +1,7 @@
 Archie::Application.routes.draw do
   
   devise_for :users, :path => 'admin', :controllers => { :registrations => "registrations"}
-
-  
+  resources :teams
   
   # The priority is based upon order of creation:
   # first created -> highest priority.
