@@ -1,3 +1,7 @@
 class Team < ActiveRecord::Base
-  # attr_accessible :title, :body
+
+    # Setup accessible (or protected) attributes for your model
+    attr_accessible :name, :logo, :provider_id
+    
+    
 end
